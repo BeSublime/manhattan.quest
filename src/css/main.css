@@ -5,7 +5,7 @@
 /* add your global styles here; use tailwind classes for component/element styles */
 html, body, main {
 	background-image: url("../img/3.jpg");
-
+	background-color: #CEB47D;
 }
 
 ::selection {
