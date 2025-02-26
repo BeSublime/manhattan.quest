@@ -3,3 +3,34 @@
 @tailwind utilities;
 
 /* add your global styles here; use tailwind classes for component/element styles */
+html, body, main {
+	background-image: url("../img/3.jpg");
+
+}
+
+::selection {
+	background-color: rgba(179, 135, 34, 0.7);
+}
+
+h1, h2, h3, h4 {
+	font-family: "Fondamento", cursive;
+	/* font-family: "Germania One", cursive; */
+	/* font-family: "IM Fell Great Primer SC", serif; */
+}
+
+/*
+
+font-family: "Bellefair", serif;
+font-family: "Eagle Lake", cursive;
+font-family: "Fondamento", cursive; - great
+font-family: "Germania One", cursive; - good
+font-family: "IM Fell Great Primer SC”, serif; - good,  but fairly common
+font-family: "Lancelot", cursive; - nope
+font-family: "Macondo", cursive; - okay
+font-family: "Macondo Swash Caps", cursive;
+font-family: "MedievalSharp", cursive; - nope
+font-family: "Metamorphous", cursive; - okay
+font-family: "Modern Antiqua", cursive; - good, but tall f's
+font-family: "Pirata One", cursive; - nope, too fraktur-ish
+
+*/
